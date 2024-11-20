@@ -4,7 +4,7 @@
 }
 
 header{
-    border-bottom: 3px black;
+    border: 3px black;
     width: 100%;
     height: 150px;
     background-color: #9EA94F ;
@@ -13,9 +13,13 @@ header{
 .headerSup{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .btnHeaderSup{
     margin: 20px;
 }
+
+
+
