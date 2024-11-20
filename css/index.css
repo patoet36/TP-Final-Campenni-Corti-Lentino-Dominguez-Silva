@@ -13,8 +13,10 @@ header{
 .headerSup{
     display: flex;
     flex-direction: row;
-    text-align: center;
     flex-wrap: wrap;
+    h1{
+        text-align: center;
+    }
 }
 
 .btnHeaderSup{
