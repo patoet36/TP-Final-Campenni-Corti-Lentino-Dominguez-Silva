@@ -4,7 +4,6 @@
 }
 
 header{
-    border: 3px black;
     width: 100%;
     height: 150px;
     background-color: #9EA94F ;
@@ -13,15 +12,28 @@ header{
 .headerSup{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    justify-content: center;
     h1{
-        text-align: center;
+        margin-top: 10px;
     }
 }
 
 .btnHeaderSup{
-    margin: 20px;
+
+    .btn{
+        color: white;
+        background-color: #60712F;
+    }
 }
+
+.icono img{
+    width: 32px;
+    height: 32px;
+}
+
+
 
 
 
