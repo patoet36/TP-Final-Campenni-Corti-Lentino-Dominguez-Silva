@@ -5,7 +5,7 @@
 
 header{
     width: 100%;
-    height: 150px;
+    height: 200px;
     background-color: #9EA94F ;
 }
 
@@ -18,21 +18,40 @@ h1{
 }
 
 
-.btnHeaderSup{
+.btn{
+    width: 100px;
+    height: 64px;
+    color: white;
+    background-color: #60712F;
+}
 
-    .btn{
-        color: white;
-        background-color: #60712F;
-    }
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;  
+}
+
+.iconos img{
+    width: 64px;
+    height: 64px;
+    margin: 30px;
 }
 
 .icono img{
-    width: 32px;
-    height: 32px;
-    
+    width: 64px;
+    height: 64px;
 }
 
+.headerInf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
-
+.icono{
+    margin: 10px;
+}
 
 
