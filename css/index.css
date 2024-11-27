@@ -40,8 +40,9 @@ a{
 }
 
 .icono img{
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
+    margin: 30px 20px 10px 20px;
 }
 
 .headerInf{
@@ -53,7 +54,7 @@ a{
 }
 
 .icono{
-    margin: 10px;
+    
 }
 
 footer{
