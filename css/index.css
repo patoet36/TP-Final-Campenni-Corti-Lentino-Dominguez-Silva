@@ -53,16 +53,22 @@ a{
     justify-content: center;
 }
 
-.icono{
-    
-}
 
 footer{
     width: 100%;
-    height: 200px;
     background-color: #9EA94F;
 }
 
+
+.footer1{
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
 
 
 
