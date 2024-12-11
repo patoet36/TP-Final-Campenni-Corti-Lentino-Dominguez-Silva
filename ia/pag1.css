@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*-----------------------------------------------HEADER---------------------------------------------------------------*/
+
+#header{
+    margin-left: 0;
+    margin-right: 0;
+    height: 170px;
+    background-color: #153D8A;
+}
+
+
+#fotoLogo{
+    margin: 50px 20px 20px 80px;
+    width: 100px;
+    height: 100px;
+}
+
+.btnHeader{
+    padding: 0 50% 0 50%;
+    align-items: center;
+    height: 170px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.btn:hover{
+    color: white;
+    text-decoration: underline;
+    border-bottom: solid 5px white;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+/*-----------------------------------------------Pagina---------------------------------------------------------------*/
+
+body {
+    background-image: url(../assets/imagenes/loginFondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.form-container {
+    margin: 100px;
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    background-color: #153D8A;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: #153D8A;
+}
+
+
+
+
+
+/*------------------------------------------FOOTER-----------------------------------------------------*/
+
+.footer {
+    background-color: #153D8A;
+    padding: 20px 0;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+}
+
+.twitter{
+    width: 44px;
+    height: 32px;
+}
+.instagram{
+    width: 32px;
+    height: 32px;
+}
+.facebook{
+    width: 32px;
+    height: 32px;
+}
+
+.logoFooter{
+    margin: 0 5px 0 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.ms-2{
+    color: white;
+}
