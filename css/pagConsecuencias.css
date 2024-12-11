@@ -26,3 +26,15 @@ body{
 .titulo_1{
     margin-left: 140px  ;
 }
+
+.imagen_3 img{
+    margin-right: 100px;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    width: 650px;
+}
+
+.titulo_3{
+    margin-left: 140px;
+}
