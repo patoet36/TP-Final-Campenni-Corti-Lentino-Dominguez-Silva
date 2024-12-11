@@ -1,0 +1,123 @@
+/*---------------------------------------------------------------------------HEADER------------------*/
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #9EA94F ;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+
+.btn{
+    width: 100px;
+    height: 64px;
+    color: white;
+    background-color: #60712F;
+}
+
+.headerInf a{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: black; 
+    align-items: center;
+}
+
+.iconos img{
+    width: 64px;
+    height: 64px;
+    margin: 30px 30px 10px 30px;
+}
+
+
+.headerInf{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*-------------------------------------------------------------CONTENIDO----------------------------*/
+
+
+
+.form-container {
+    margin: 100px;
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.butones button{
+    background-color: #60712f;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.butones:hover{
+    border-radius: 20px;
+    background-color: darkolivegreen;
+}
+
+/*-----------------------------------------------------------------FOOTER---------------------------*/
+
+footer{
+    width: 100%;
+    background-color: #9EA94F;
+}
+
+
+.footer1{
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+.botonesGral{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.botones{
+  margin-left: 64%;
+}
+
+.botones button{
+  width: 120px;
+  height: 40px;
+}
+
+.btn:hover{
+  background-color: darkolivegreen;
+}
+
+
+.icono img{
+    width: 32px;
+    height: 32px;
+    margin: 30px 20px 10px 20px;
+}
